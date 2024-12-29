@@ -12,14 +12,14 @@ https://www.tooplate.com/view/2132-clean-work
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #2217a6;
-  --secondary-color:              #4f83d1;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #4f83d1;
-  --custom-btn-bg-hover-color:    #7cb8eb;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --white-color:                  #801111;
+  --primary-color:                #f3f2f6;
+  --secondary-color:              #ede6e6;
+  --section-bg-color:             #282b58;
+  --custom-btn-bg-color:          #f2f2f2;
+  --custom-btn-bg-hover-color:    #4f83d1;
+  --dark-color:                   #f4efef;
+  --p-color:                      #f0f2f6;
   --border-color:                 #e9eaeb;
   --link-hover-color:             #4f83d1;
 
@@ -603,7 +603,7 @@ strong {
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
 .custom-border-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
+  background: var(--section-bg-color);
   border-color: transparent;
   color: var(--white-color);
 }
@@ -661,7 +661,7 @@ strong {
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
   background: transparent;
-  color: var(--primary-color);
+  color: var(--section-bg-color);
 }
 
 .dropdown-menu {
@@ -804,7 +804,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: var(--primary-color);
+  background: var(--section-bg-color);
   position: relative;
   z-index: 22;
   padding-top: 15px;
@@ -814,7 +814,7 @@ strong {
 .site-header p,
 .site-header p a,
 .site-header .social-icon-link {
-  color: var(--white-color);
+  color: var(--primary-color);
   font-size: var(--copyright-font-size);
 }
 
@@ -1549,7 +1549,7 @@ strong {
   }
 
   .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
-    background-color: var(--custom-btn-bg-color);
+    background-color: var(--section-bg-color);
     color: var(--white-color);
     margin-left: 0;
   }
